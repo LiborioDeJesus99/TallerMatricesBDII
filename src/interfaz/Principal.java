@@ -73,6 +73,7 @@ public class Principal extends javax.swing.JFrame {
 
             }
         ));
+        tblMatrizResultante.setEnabled(false);
         jScrollPane1.setViewportView(tblMatrizResultante);
 
         jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 160, 320, 180));
@@ -85,6 +86,7 @@ public class Principal extends javax.swing.JFrame {
 
             }
         ));
+        tblMatrizInicial.setEnabled(false);
         jScrollPane2.setViewportView(tblMatrizInicial);
 
         jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 320, 180));
@@ -172,7 +174,8 @@ public class Principal extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 880, 360));
 
-        pack();
+        setSize(new java.awt.Dimension(895, 401));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void cmdCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdCrearActionPerformed
