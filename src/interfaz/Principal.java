@@ -216,7 +216,6 @@ public class Principal extends javax.swing.JFrame {
             cmbOperaciones.setEnabled(false);
             Helper.HabilitarBotones(botonesH);
             Helper.DeshabilitarBotones(botonesD);
-
         }
     }//GEN-LAST:event_cmdCrearActionPerformed
 
@@ -266,7 +265,7 @@ public class Principal extends javax.swing.JFrame {
     private void cmdLlenadoAutomaticoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdLlenadoAutomaticoActionPerformed
 
         int aux, nf, nc;
-
+        
         nf = tblMatrizInicial.getRowCount();
         nc = tblMatrizInicial.getColumnCount();
 

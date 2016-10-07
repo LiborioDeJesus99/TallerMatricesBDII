@@ -210,7 +210,7 @@ public class Helper {
         for (int i = 0; i < nf; i++) {
             for (int j = 0; j < nc; j++) {
                 Aux = (int) tabla1.getValueAt(i, j);
-                if (((i >= j && nf - 1 - i <= j)) || (i <= j) && (nf - 1 - i >= j)) {
+                if (((i > j && nf - 1 - i <= j)) || (i <= j) && (nf - 1 - i > j)) {
                     tabla2.setValueAt(Aux, i, j);
                 }
             }
@@ -226,7 +226,7 @@ public class Helper {
         for (int i = 0; i < nf; i++) {
             for (int j = 0; j < nc; j++) {
                 Aux = (int) tabla1.getValueAt(i, j);
-                if (((j >= i && nf - 1 - j <= i)) || (j <= i) && (nf - 1 - j >= i)) {
+                if (((j > i && nc - 1 - j <= i)) || (j <= i) && (nc - 1 - j > i)) {
                     tabla2.setValueAt(Aux, i, j);
                 }
             }
